@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  producer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: producer
+    env_file: example.env
+    volumes:
+      - ./:/app/
+    environment:
+      - DEBUG=true
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: consumer
+    env_file: example.env
+    volumes:
+      - ./:/app/
+    environment:
+      - DEBUG=true
