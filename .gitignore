@@ -1,5 +1,6 @@
 .*
 !.gitignore
+!configs/.gitkeep
 
 # Python
 __pycache__
@@ -8,5 +9,6 @@ __pycache__
 # Code coverage
 htmlcov
 .env/
-!/**/.gitkeep
-configs/
+configs/ca.pem
+configs/service.cert
+configs/service.key
