@@ -1,0 +1,21 @@
+google:
+  url: https://google.com
+  schedule:
+    interval:
+      seconds: 5
+
+aiven:
+  url: https://aiven.io/
+  timeout: 2
+  schedule:
+    interval:
+      seconds: 10
+
+
+aiven-try-free:
+  url: https://aiven.io/
+  timeout: 10
+  regex_pattern: Try (Now For )?Free
+  schedule:
+    interval:
+      seconds: 10
