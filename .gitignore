@@ -1,0 +1,12 @@
+.*
+!.gitignore
+
+# Python
+__pycache__
+*.pyc
+
+# Code coverage
+htmlcov
+.env/
+!/**/.gitkeep
+configs/

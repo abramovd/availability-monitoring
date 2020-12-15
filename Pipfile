@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+autopep8 = "*"
+flake8 = "*"
+coverage = "*"
+freezegun = "*"
+responses = "*"
+
+[packages]
+pydantic = "*"
+apscheduler = "*"
+kafka-python = "*"
+pyyaml = "*"
+psycopg2-binary = "*"
+requests = "*"
+
+[requires]
+python_version = "3.9"
