@@ -45,10 +45,6 @@ def create_monitoring_rule(
     )
 
 
-# @mock.patch(
-#     'producer.config.PRODUCER_IMPLEMENTATION',
-#     'producer.produce.MockedProducer',
-# )
 class ProducerTest(unittest.TestCase):
     def setUp(self):
         initialize_producer(MockedProducer)

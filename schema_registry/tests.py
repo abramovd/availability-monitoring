@@ -1,7 +1,4 @@
-import unittest
-
-# TODO: add tests
-
+# TODO: add unit tests
 
 # class SchemaRegistryTest(unittest.TestCase):
 #     def test_register_schema__success(self):
